@@ -1,0 +1,284 @@
+.dashboard {
+    background-color: white; 
+    height: 100%;
+    width: 100%; 
+    margin-bottom: 2em;
+  }
+
+
+
+/* AHMEDS STYLING */
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.info-card-container {
+  display: flex;
+  flex-direction: row;
+
+  column-gap: 1em;
+}
+
+.info-card-content {
+  width: 16em;
+  height: 11em;
+
+  padding: .25em 1em;
+
+  border: 1px solid rgba(136, 136, 136, 0.266);
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.find-card-title {
+  font-size: 1.15rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.find-card-description {
+  font-size: .85rem;
+  color: #666;
+}
+
+.review-images {
+  display: flex;
+  flex-direction: row;
+  column-gap: -1.5em;
+
+  margin-top: 1.5em;
+}
+
+.review-images img {
+  width: 35px;
+  margin-left: -.5em;
+}
+
+.review-images img:nth-child(1) {
+  margin-left: 0em;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+    
+.card-container-info {
+  display: flex ;
+  flex-direction: row ;
+  align-items: baseline;
+
+  column-gap: .5em;
+}
+
+.card-container-info .card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  text-align: center;
+  background: #E8E8E8;
+  height: 12.5em;
+  width: 10.5em;
+  padding: 1em;
+
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card-container-info img {
+  width: 4em;
+  margin-top: 3em;
+}
+
+.card-info:nth-child(2) {
+  background: black;
+  color: white;
+  height: 14em;
+  margin-bottom: 1.5em;
+}
+
+.card-info:nth-child(2) img {
+  width: 5.5em;
+  margin-top: 0;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+
+
+.search-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+} 
+
+.address {
+
+}
+
+.view-report {
+  background: none; 
+  border: none; 
+  color: black; 
+  padding: 0; 
+  margin: 0; 
+  cursor: pointer;
+  font-family: inherit; 
+}
+
+.previous-searches-title {
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-bottom: 1em;
+}
+
+.previous-searches-box {
+  background: #fff;
+  border-radius: 4px;
+  padding: 0 2em;
+  border: 1px solid rgba(136, 136, 136, 0.266);
+  border-radius: 5px;
+  width: 50em;
+}
+
+.header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+
+  border-bottom: 1px solid rgba(136, 136, 136, 0.266);
+}
+
+.header-search h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.view-all {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.search-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Reset the margin for the list */
+  margin-bottom: 2em;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: .5em;
+}
+
+.previous-img-address {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  column-gap: .5em;
+}
+
+.previous-img-address img {
+  width: 27.5px;
+}
+
+/*  */
+
+.top-HeatPumps {
+  border: 1px solid rgba(136, 136, 136, 0.266);
+  width: 45em;
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+.top-HeatPumps .title-top-hp {
+  font-size: 18px;
+}
+
+.topHP-tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+
+  border: 1px solid rgba(136, 136, 136, 0.266);
+  margin: 0 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.topHP-tabs .topHP-tab {
+  padding: .75em 2.5em;
+  border-radius: 5px;
+  color: rgb(114, 114, 114);
+  font-weight: 200;
+
+  font-size: 14px;
+}
+
+.topHP-tabs .topHP-tab.active {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+.topHP-list {
+  padding: 2em;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+}
+
+.bargraph {
+  width: 50em;
+}
+
+.ES-title {
+  font-size: 18px;
+  margin-top: 2.5em;
+}
+
+/* Dashboard Headings */
+
+.heading {
+  padding: 2em 2em;
+  padding-bottom: 0;
+}
+
+.heading h2 {
+  margin: 0;
+  text-transform: uppercase; 
+  font-size: 24px; 
+  font-weight: bold; 
+  padding-bottom: 10px; 
+}
+
+.heading p {
+  margin: 0;
+  font-size: 15px; 
+  color: #9f9f9f 
+}
+

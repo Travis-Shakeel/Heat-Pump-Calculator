@@ -1,0 +1,43 @@
+.sidebar {
+  width: 6em;
+  height: calc(100vh - 2em);
+
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  padding: 1em 0;
+  border-right: 1px solid rgba(128, 128, 128, 0.234);
+
+  position: fixed;
+}
+
+.sidebar .first-selections {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.sidebar svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .4em;
+
+  width: 27.5px;
+  height: auto;
+
+  cursor: pointer;
+  color: black !important;
+}
+
+.sidebar .active {
+  background: black !important;
+  border-radius: 5px;
+}
+
+.sidebar .active svg {
+  filter: brightness(0) invert(1);
+}
