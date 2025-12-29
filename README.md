@@ -22,7 +22,7 @@ Official installation instructions:
 - [`just`](https://github.com/casey/just?tab=readme-ov-file#installation)
 
 
-I (Beau) *highly recommend* using a package manager to install all of these. I
+I *highly recommend* using a package manager to install all of these. I
 prefer [homebrew](https://brew.sh/) on macos and [scoop](https://scoop.sh/) on
 windows.
 
